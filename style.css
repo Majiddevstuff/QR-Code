@@ -1,10 +1,8 @@
-/*@font-face {
-   font-family:'Outfit' ;
-   src: url(https://fonts.google.com/specimen/Outfit);
-} */
+
 body {
    margin:0;
    padding:0;
+   max-width:1440px;
 }
 .container{
    display:flex;
@@ -25,6 +23,8 @@ body {
    padding-left:15px;
    padding-right:15px;
    padding-bottom:40px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   max-width:100%;
 } 
 .card img{
    width:300px;
@@ -46,4 +46,8 @@ body {
    padding:-5px;
    font-size:15px;
    text-align:center;
+}
+.attribution  {
+   position: absolute;
+      bottom: 50px;
 }
